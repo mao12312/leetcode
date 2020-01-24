@@ -9,4 +9,4 @@ const title = (word) => {
         else console.log('create end');
     });
 }
-title("Find Numbers with Even Number of Digits");
+title("Subtract the Product and Sum of Digits of an Integer");
