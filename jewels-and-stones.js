@@ -2,8 +2,12 @@ const numJewelsInStones = (J, S) => {
     let count = 0;
     for (let i = 0; i < J.length; i++) {
         let targetStr = J[i]
-        count += (S.match(new RegExp(targetStr, "g")) || []).length;
+        if ((S.match(new RegExp(targetStr, "g")) || []).length) {
+            count += (S.match(new RegExp(targetStr, "g")) || []).length
+        } else {
+            count += 0
+        };
     }
-    console.log(count)
+    return count;
 }
-numJewelsInStones("zZ", "zzz");
+numJewelsInStones("Z", "zzz");
