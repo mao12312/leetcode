@@ -9,4 +9,4 @@ const title = (word) => {
         else console.log('create end');
     });
 }
-title("Subtract the Product and Sum of Digits of an Integer");
+title("Jewels and Stones");
