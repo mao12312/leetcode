@@ -9,4 +9,4 @@ const title = (word) => {
         else console.log('create end');
     });
 }
-title("Jewels and Stones");
+title("Jewels and StonesNumber of Steps to Reduce a Number to Zero");
