@@ -9,4 +9,4 @@ const title = (word) => {
         else console.log('create end');
     });
 }
-title("Count Negative Numbers in a Sorted Matrix");
+title("Convert Binary Number in a Linked List to Integer");
